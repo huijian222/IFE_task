@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: rgb(221, 221, 221)
+}
+/*此处为导航栏*************************************************/
+header{
+    position:relative;
+    height:60px;
+    background:#333;
+}
+header a img{
+    padding-left:20px;
+    height:60px;
+}
+header ul{
+    position:absolute;top:0;right:10px;
+}
+header ul li {
+    text-align: center;
+
+	width:60px;
+    display:block;
+    float:left;
+    padding:20px 10px;
+}
+header ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:12px;
+}
+/*此处为主题***********************************************/
+article{
+	display: block;
+	position: relative;
+	margin: 20px;
+	background: white;
+	padding: 50px 20px ;
+}
+article h2{
+    padding:5px 0;
+}
+article h3{
+    padding:15px 0;
+    color:#808080;
+    font-size:16px;
+}
+article a{
+    color:blue;
+}
+.auther, .aTime{ /*作者class*/
+    line-height:30px;
+    color:#808080;
+    font-size:12px;
+}
+article dl dd{
+    width:120px;
+    margin: 20px 0px 0px 50px;
+    border:1px solid #ccc;
+}
+article dl dd span{
+    display:block;
+    font-size:12px;
+    text-align:center;
+    margin:5px;
+}
+article dl dd img{
+	width:110px;
+    padding:5px;
+}
+article ol li{
+	margin: 10px 40px;
+}
+article table{
+	width: 100%;
+	border-collapse: collapse;
+}
+article table tr th{
+    color:white;
+    background:#333;
+    text-align: left;
+}
+article table tr td{
+    text-align: left;
+    padding: 4px;
+}
+article table .buttomTable{
+    background:#ccc;
+}
+/***侧栏部分**/
+aside h4{
+	height: 40px;
+	line-height: 30px;
+	padding-left: 10px;
+	border-left: 3px solid #ccc;
+}
+aside form div{
+	font-size: 14px;
+    margin:15px 0;
+}
+article aside form div{
+    font-size: 14px;
+    margin:15px 0;
+}
+aside form div .tips{
+    float:left;           /*添加后个人描述四个字才和文本域上对齐*/
+    text-align:right;
+    width:35%;
+    padding-right:15px;
+}
+form div p{
+    margin-left:35%;
+    margin-top: 1%;
+    padding-left:15px;
+    font-size:12px;
+    color: #aaa;
+}

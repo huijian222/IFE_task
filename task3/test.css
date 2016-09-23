@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.ground{
+	margin: 20px;
+	padding: 20px;
+	background: #eee;
+	border: 1px solid #999;
+	overflow: auto;
+}
+
+.left_div{
+	background: white;
+	width: 198px;
+	border: 1px solid #999;
+	float: left;
+	position: relative;
+}
+.name{
+	position: absolute;
+	padding-top: 20px;
+}
+.right_div{
+	float: right;
+	width: 120px;
+	border: 1px solid #999;
+	background: white;
+}
+.center_div{
+	margin-left: 220px;
+	margin-right: 140px;
+	background: white;
+	padding: 20px;
+	border: 1px solid #999;
+}
