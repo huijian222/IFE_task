@@ -2,3 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background: rgb(221, 222, 223);
+    font-family: 微软雅黑;
+    width: 980px;
+    height: 1386px;
+}
