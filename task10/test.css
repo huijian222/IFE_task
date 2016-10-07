@@ -10,27 +10,44 @@ body {
 
 
 /**头部样式****************************************************/
+
 .flex {
-    display: -webkit-flex;
+    display: flex;
     border: 1px solid rgb(151, 151, 151);
-    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .flex > div {
     width: 150px;
     border: 1px solid #f00;
+    padding: 0px;
+    margin-bottom: 10px;
 }
+
 .div1 {
     height: 120px;
 }
+
 .div2 {
     height: 100px;
 }
+
 .div3 {
     height: 40px;
 }
+
 .div4 {
     height: 200px;
-    border-color: #0f0;
-    position: absolute;
-    
+    border-color: #00f!important;
+}
+
+@media all and (max-width: 640px) {
+    .div4 {
+        order: -1;
+    }
+    .flex {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
 }
