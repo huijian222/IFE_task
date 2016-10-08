@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: gray;
+}
+
+main {
+    background: white;
+    width: 90%;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+/*     flex-direction: column;
+    align-content: space-between; */
+}
+
+.flex > a {
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    border: 1px solid gray;
+    flex-grow: 1;
+}
+
+.flex > a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.flex > a:visited {
+    color: black;
+}
