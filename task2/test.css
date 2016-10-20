@@ -1,9 +1,9 @@
 *{
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 body{
-	background: rgb(221, 221, 221)
+    background: rgb(221, 221, 221)
 }
 /*此处为导航栏*************************************************/
 header{
@@ -21,7 +21,7 @@ header ul{
 header ul li {
     text-align: center;
 
-	width:60px;
+    width:60px;
     display:block;
     float:left;
     padding:20px 10px;
@@ -33,11 +33,11 @@ header ul li a{
 }
 /*此处为主题***********************************************/
 article{
-	display: block;
-	position: relative;
-	margin: 20px;
-	background: white;
-	padding: 50px 20px ;
+    display: block;
+    position: relative;
+    margin: 20px;
+    background: white;
+    padding: 50px 20px ;
 }
 article h2{
     padding:5px 0;
@@ -67,15 +67,15 @@ article dl dd span{
     margin:5px;
 }
 article dl dd img{
-	width:110px;
+    width:110px;
     padding:5px;
 }
 article ol li{
-	margin: 10px 40px;
+    margin: 10px 40px;
 }
 article table{
-	width: 100%;
-	border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 article table tr th{
     color:white;
@@ -91,13 +91,13 @@ article table .buttomTable{
 }
 /***侧栏部分**/
 aside h4{
-	height: 40px;
-	line-height: 30px;
-	padding-left: 10px;
-	border-left: 3px solid #ccc;
+    height: 40px;
+    line-height: 30px;
+    padding-left: 10px;
+    border-left: 3px solid #ccc;
 }
 aside form div{
-	font-size: 14px;
+    font-size: 14px;
     margin:15px 0;
 }
 article aside form div{
