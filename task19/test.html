@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <style type="text/css">
+    body {
+        background: gray;
+        padding: 20px;
+    }
+    
+    main {
+        padding: 20px;
+        background: white;
+        height: 550px;
+    }
+    
+    .box {
+        background: red;
+        margin-right: 5px;
+        color: white;
+    }
+    
+    #number_div {
+        display: flex;
+        height: 500px;
+        align-items: flex-end;
+        border: 3px solid #000;
+    }
+    </style>
+</head>
+
+<body>
+    <main>
+        <input type="text" name="text_input" id="text_input">
+        <button id="left_in">左侧入</button>
+        <button id="right_in">右侧入</button>
+        <button style="margin-left:20px" id="left_out">左侧出</button>
+        <button id="right_out">右侧出</button>
+        <button id="sort">排序</button>
+        <button id="getRandNumber">获得随机数</button>
+        <div id="number_div"></div>
+    </main>
+</body>
+<script src="./test.js"></script>
+
+</html>
